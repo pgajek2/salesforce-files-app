@@ -3,41 +3,8 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/aPage": [
-                "aPage/aPage.js"
-            ],
-            "c/bPage": [
-                "bPage/bPage.js"
-            ],
-            "c/base": [
-                "base/base.js"
-            ],
-            "c/cPage": [
-                "cPage/cPage.js"
-            ],
-            "c/caseListView": [
-                "caseListView/caseListView.js"
-            ],
-            "c/container": [
-                "container/container.js"
-            ],
-            "c/customDatatable": [
-                "customDatatable/customDatatable.js"
-            ],
-            "c/customLightningDatatable": [
-                "customLightningDatatable/customLightningDatatable.js"
-            ],
-            "c/deleteRowTypeDatatable": [
-                "deleteRowTypeDatatable/deleteRowTypeDatatable.js"
-            ],
-            "c/downloadRowTypeDatatable": [
-                "downloadRowTypeDatatable/downloadRowTypeDatatable.js"
-            ],
             "c/filesContainer": [
                 "filesContainer/filesContainer.js"
-            ],
-            "c/utils": [
-                "utils/utils.js"
             ]
         }
     },
