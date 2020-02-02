@@ -1,0 +1,19 @@
+<template>
+    <template for:each={data} for:item="record">
+        <div class="slds-box slds-m-vertical_x-small" key={record.objectId}>
+
+            <h5 class="slds-m-around_xx-small">
+                {record.id} - {record.name} - {record.createdDate}
+            </h5>
+
+            <ol>
+                <template for:each={record.files} for:item="file">
+                    <li class="slds-border_left slds-p-left_medium slds-m-around_xxx-small" key={file.id}>
+                        <a href="javascript:void(0);" data-id={file.id} data-download-url={file.downloadUrl} onclick={handleDownloadFile}>{file.id}</a>  - {file.name} - {file.createdDate}
+                    </li>                
+                </template>
+            </ol>
+
+        </div>
+    </template>
+</template>

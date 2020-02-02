@@ -1,0 +1,9 @@
+<template>
+    <div class="slds-box slds-align_absolute-center">
+        <div class="slds-text-heading_large slds-m-around_small">Page C</div>
+        <lightning-button-icon icon-name="utility:back" onclick={handleGoBack} class="slds-m-around_small" ></lightning-button-icon>
+        <lightning-button-icon icon-name="utility:forward" onclick={handleMoveForward} class="slds-m-around_small" ></lightning-button-icon>
+        <button class="slds-button slds-button_neutral slds-m-around_small" data-page='B' onclick={handleRedirect}>Go to Page B</button>
+        <button class="slds-button slds-button_neutral slds-m-around_small" data-page='A' onclick={handleRedirect}>Go to Page A</button>
+    </div>
+</template>
